@@ -1,0 +1,27 @@
+  125  git init
+  126  git remote add origin https://github.com/xmiguelforero/20230605-MiguelParra.git
+  127  touch comandos.txt main.js index.html
+  128  git add .
+  129  git commit -m "commit 01 de MiguelParra"
+  130  git push origin main
+  131  git branch feature01
+  132  git checkout feature01
+  133  mkdir Terminal Hardware
+  134  cd Terminal/
+  135  resumen.txt
+  136  touch resumen.txt
+  137  cd ..
+  138  cd Hardware/
+  139  touch resumen.txt
+  140  cd ..
+  141  git add .
+  142  git commit -m "commit 02 de MiguelParra"
+  143  git push origin feature01
+  144  git branch feature02
+  145  git checkout feature02
+  146  git add .
+  147  git commit -m "commit 03 de MiguelParra"
+  148  git push origin feature02
+  149  git checkout main
+  150  mv comandos.txt comandosUtilizados.txt
+  151  history > comandosUtilizados.txt
